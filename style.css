@@ -1,17 +1,19 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
+  line-height: 1.5em;
 }
 strong {
   font-weight: bold;
 }
-
-#hero {
+section {
   width: 100%;
   max-width: 1920px;
-  height: 98vh;
+  height: 95vh;
   margin: auto;
-
+  margin-bottom: 128px;
+}
+#hero {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -40,4 +42,27 @@ h1 {
 .underline {
   font-size: 24px;
   font-weight: 300;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: space-between;
+}
+#about div {
+  width: 50ch;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#about div h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.about-me {
+  align-self: flex-end;
+  text-align: right;
 }
