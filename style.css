@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+strong {
+  font-weight: bold;
+}
+
+#hero {
+  width: 100%;
+  max-width: 1920px;
+  height: 98vh;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.welcome {
+  align-self: center;
+  text-align: center;
+}
+nav {
+  align-self: flex-end;
+  display: flex;
+  gap: 16px;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+nav a:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.underline {
+  font-size: 24px;
+  font-weight: 300;
+}
